@@ -9,10 +9,6 @@ on:
       - labeled
       - unlabeled
       - edited
-  issues:
-    types:
-      - milestoned
-      - demilestoned
 
 concurrency:
   group: pr-checks-${{ github.event.number }}
